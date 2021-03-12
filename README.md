@@ -1,6 +1,7 @@
 ### Register and Login Form
 
 ![Alt register-form](./img/register-form.PNG?raw=true "register-form")
+![Alt login-form](./img/login-form.PNG?raw=true "login-form")
 
 You can set your username, email address (just use a fake one) and password
 in the register form and use the information in the login form.
