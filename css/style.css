@@ -63,7 +63,7 @@ form {
 }
 
 input {
-  width: 500px;
+  width: 90%;
   background: transparent;
   color: white;
   font-size: 18px;
@@ -89,7 +89,7 @@ input:focus {
   margin: 40px 0 20px 0;
   padding: 20px 0;
   transition: 0.25s ease-in-out;
-  width: 500px;
+  width: 90%;
 }
 
 .submit-btn:hover {
@@ -108,4 +108,25 @@ input:focus {
 
 .switch a {
   color: rgb(155, 155, 155);
+}
+
+@media (max-width: 1200px) {
+  .container.login-container {
+    height: 85vh;
+  }
+
+  .logo-background {
+    background: linear-gradient(
+      90deg,
+      rgba(165, 165, 165, 0),
+      rgb(165, 165, 165),
+      rgba(165, 165, 165, 0)
+    );
+    height: 200px;
+    padding: 0 0 1px 0;
+  }
+
+  .logo .logo-text {
+    font-size: 40px;
+  }
 }
