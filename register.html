@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Custom Styling -->
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Sign Up</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="logo-background">
+        <div class="logo">
+          <p class="logo-text"><span class="logo-at">@</span>CLOSR</p>
+        </div>
+      </div>
+      <form id="login-form" onsubmit="signUp(this)">
+        <input
+          class="username-input"
+          type="text"
+          placeholder="Username"
+          id="username-input"
+          required
+        />
+        <input
+          class="email-input"
+          type="email"
+          placeholder="Email Adress"
+          id="email-input"
+          required
+        />
+        <input
+          class="password-input"
+          type="password"
+          placeholder="Password"
+          id="password-input"
+          required
+        />
+        <input
+          class="confirm-password"
+          type="password"
+          placeholder="Confirm Password"
+          id="confirm-password"
+          required
+        />
+        <button class="submit-btn" type="submit">Sign Up</button>
+        <span class="switch"
+          >Already have an account?&nbsp; - &nbsp;<a href="login.html"
+            >Sign in here.</a
+          ></span
+        >
+      </form>
+    </div>
+  </body>
+
+  <script src="js/script.js"></script>
+</html>
